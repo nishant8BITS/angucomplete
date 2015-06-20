@@ -29,7 +29,8 @@ var app = angular.module('app', ["angucomplete"]);
               searchfields="name"
               titlefield="name"
               minlength="1"
-              inputclass="form-control form-control-small"/>
+              inputclass="form-control form-control-small"
+              width="400"/>
 ```
 
 ### Remote Usage
@@ -64,6 +65,7 @@ var app = angular.module('app', ["angucomplete"]);
 | inputclass | The classes to use for styling the input box | No | form-control |
 | localdata | The local data variable to use from your controller. Should be an array of objects | No | countriesList |
 | searchfields | The fields from your local data to search on (comma separate them) | No | title,description |
+| width | The fields specified the width of input | No | width=200, it will set input width 200px |
 
 ### Running test suite
 
