@@ -64,6 +64,10 @@ var app = angular.module('app', ["angucomplete"]);
 | inputclass | The classes to use for styling the input box | No | form-control |
 | localdata | The local data variable to use from your controller. Should be an array of objects | No | countriesList |
 | searchfields | The fields from your local data to search on (comma separate them) | No | title,description |
+| matchClass | The field take class name which will used to highlight matching character in search result. | No | Ex: If you pass highLight as value then in css you have defined . highLight{
+      background-color: lightblue;
+    color: #ffffff;
+} |
 
 ### Running test suite
 
